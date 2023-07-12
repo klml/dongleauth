@@ -601,6 +601,20 @@ websites:
       otp: Yes
       doc: https://www.ing.com.au/security.html
 
+    - name: ING Poland
+      url: https://www.ing.pl/
+      img: ing.png
+      otp: Yes
+      tfa: Yes
+      u2f: Yes
+      sms: Yes
+      software: Yes
+      multipleu2f: Yes
+      lang: pl
+      doc: https://www.ing.pl/indywidualni/bankowosc-internetowa/bezpieczenstwo/klucze-zabezpieczen-u2f
+      exceptions:
+          text: "Software authentication only available via Moje ING mobile app."
+
     - name: ING-DiBa AG (Deutschland)
       url: https://www.ing.de
       twitter: ING_Deutschland
