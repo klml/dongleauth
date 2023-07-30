@@ -225,7 +225,7 @@ websites:
         text: "Software implementation requires use of the Seznam app."
       doc: https://blog.seznam.cz/2018/04/seznam-cz-ma-nove-dvoufazove-overeni-u-vsech-svych-sluzeb-zvysi-zabezpeci-prihlasovani-napriklad-do-emailu/
       
-    - name: Simple Login
+    - name: SimpleLogin
       url: https://simplelogin.io/
       img: simplelogin.png
       tfa: Yes
