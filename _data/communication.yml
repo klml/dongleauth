@@ -70,6 +70,8 @@ websites:
       software: Yes
       hardware: Yes
       otp: Yes
+      u2f: Yes
+      multipleu2f: Yes
       doc: https://support.discordapp.com/hc/en-us/articles/219576828
 
     - name: Disqus
