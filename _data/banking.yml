@@ -203,6 +203,8 @@ websites:
       u2f: Yes
       lang: fr
       doc: https://www.boursorama.com/aide-en-ligne/mon-espace-client/identifiant-et-mot-de-passe/question/en-quoi-consiste-la-connexion-par-cle-de-securite-sur-internet-5165516
+      exceptions: 
+        text: "Key only used as login shortcut :/. Fallsback on password auth or SMS 2FA for some operations or when the key is unavailable. Not real 2FA, neither webauthn"
 
     - name: Braunschweigische Landessparkasse
       url: https://www.blsk.de/
