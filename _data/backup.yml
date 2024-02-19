@@ -9,7 +9,7 @@ websites:
     otp: Yes
     u2f: Yes
     multipleu2f: Yes
-    exceptions: 
+    exceptions:
       text: "You must add and maintain at least two security keys. You can add up to six keys."
     doc: https://support.apple.com/en-us/HT204915
 
@@ -147,7 +147,9 @@ websites:
     img: koofr.png
     hardware: Yes
     otp: Yes
-    doc: https://koofr.eu/help/other/how-do-i-enable-2-step-verification/
+    u2f: Yes
+    multipleu2f: Yes
+    doc: https://koofr.eu/help/two-factor-authentication/does-koofr-offer-two-factor-authentication/
 
   - name: Mega
     url: https://mega.nz/
